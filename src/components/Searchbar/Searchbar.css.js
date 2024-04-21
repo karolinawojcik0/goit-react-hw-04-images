@@ -32,6 +32,7 @@ export const SearchForm = styled.form`
   /* width: 48px; */
   height: 48px;
   border: 0;
+  background-color: transparent;
   background-size: 40%;
   background-position: center;
   opacity: 0.6;
