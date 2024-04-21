@@ -5,6 +5,7 @@ import {
   SearchFormInput,
   SearchbarHeader,
 } from './Searchbar.css';
+import { FaSearch } from 'react-icons/fa';
 
 export const Searchbar = ({ onSubmit }) => {
   const [searchText, setSearchText] = useState('');
@@ -23,7 +24,7 @@ export const Searchbar = ({ onSubmit }) => {
     <SearchbarHeader>
       <SearchForm onSubmit={handleSubmit}>
         <SearchFormButton type="submit">
-          <span>Search</span>
+          <FaSearch size="32px" color="#3f51b5" />
         </SearchFormButton>
 
         <SearchFormInput
